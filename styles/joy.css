@@ -11,8 +11,9 @@
     padding: 18px 35px;
     height: 64px;
     border-radius: 5px;
-    background: #FD6E0A;
+    background: #FD6E0A;   
 }
+
 
 .header {
     background: #FFF8F3;
@@ -80,7 +81,9 @@ main {
     max-width: 1140px;
     margin: 0 auto;
 }
-
+section{
+    margin-top: 130px;
+}
 /* about section styles */
 .about {
     text-align: center;
@@ -91,9 +94,10 @@ main {
 }
 
 .section-title {
+    text-align: center;
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .section-description {
@@ -118,3 +122,38 @@ main {
     font-size: 20px;
     color: #474747;
 }
+
+/* What i do styles */
+.what-i-do {
+    margin-top: 130px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+.section-history{
+    font-size: 18px;
+    color: #757575;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.sill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 28px;
+}
+
+.skill-description {
+    color: #757575;
+}
+/* Resume Styles */
